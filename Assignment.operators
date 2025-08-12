@@ -1,0 +1,30 @@
+import java.util.*;
+public class main{ //Here we declared the class
+    
+    public static void main(String[] args){
+        
+       
+       
+        int a= 3;
+        a*=2;
+        System.out.println("Multiplication:" + a);
+        int b = 4;
+        a/=2;
+        System.out.println("Division:" + b);
+        int c = 5;
+        c-=2;
+        System.out.println("Subtraction:" + c);
+        int d = 6;
+        d+=1;
+        System.out.println("addition:" + d);
+
+        
+        
+        
+        
+        
+
+
+
+    }
+}
