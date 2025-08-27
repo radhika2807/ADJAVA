@@ -1,0 +1,14 @@
+public class main {
+    public static void main(String[] args) {
+        int N = 5; // Input
+        int sum = 0;
+
+        // Loop from 1 to N
+        for (int i = 1; i <= N; i++) {
+            sum += i;
+        }
+
+        // Output
+        System.out.println("Sum of first " + N + " natural numbers is: " + sum);
+    }
+}
