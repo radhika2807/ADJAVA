@@ -1,0 +1,19 @@
+import java.util.*;
+public class main3{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        String b = sc.next();
+        String c = sc.next();
+        String result1 = a.replaceAll("(\\D+)(\\d+)", "$1 $2");
+        String result2 = b.replaceAll("(\\D+)(\\d+)", "$1 $2");
+        String result3 = c.replaceAll("(\\D+)(\\d+)", "$1 $2");
+       
+
+
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+       
+    }
+}
