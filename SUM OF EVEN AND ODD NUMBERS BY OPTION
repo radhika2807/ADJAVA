@@ -1,0 +1,29 @@
+import java.util.*;
+public class main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum = 0;
+        int temp = n;
+        System.out.println("Enter option(E for even, O for odd): ");
+        char option =  sc.next().charAt(0);
+        while(temp>0){
+            int digit = temp%10;
+            if(option == 'E' || option == 'e'){
+                if(digit%2==0)
+                sum = sum+digit;
+                
+            }
+            else if(option == 'O' || option == 'o'){
+                if(digit%2!=0){
+                    sum = sum+digit;
+                }
+
+                
+            }
+            temp = temp/10;
+        }
+        System.out.println(sum);
+        
+    }
+}
